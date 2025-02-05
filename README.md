@@ -27,7 +27,7 @@ pip install tkinter
 
 
 ## How to Use
-
+### **Make sure for the devices are connected to same network before running the script**
 ### 1️⃣ **Run the Application**
 Execute the script using:
 
@@ -40,6 +40,7 @@ python sftt.py
 - **Receive Mode:** Enter a port and a matching password to listen for incoming files.
 
 ### 3️⃣ **Secure Transfer**
+- Ensure both sender and receiver devices are connected to the **same network** before running the script.
 - The sender encrypts the file before transmission.  
 - The receiver decrypts the file using the same password.  
 - Progress updates are displayed during the process.
