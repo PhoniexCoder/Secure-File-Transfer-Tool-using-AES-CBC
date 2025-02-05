@@ -27,7 +27,7 @@ pip install tkinter
 
 
 ## How to Use
-### **Make sure for the devices are connected to same network before running the script**
+### **Make sure both devices are connected to same network before running the script.**
 ### 1️⃣ **Run the Application**
 Execute the script using:
 
