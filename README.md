@@ -18,6 +18,13 @@ Ensure you have the following dependencies installed:
 ```bash
 pip install cryptography
 ```
+```bash
+pip install socket
+```
+```bash
+pip install tkinter
+```
+
 
 ## How to Use
 
@@ -40,7 +47,8 @@ python sftt.py
 ## Encryption Details
 - **Algorithm:** AES (Advanced Encryption Standard)  
 - **Mode:** CBC (Cipher Block Chaining)  
-- **Key Derivation:** PBKDF2 with SHA-256  
+- **Key Derivation:** PBKDF2 with SHA-256
+- **IV (Initialization Vector)**: Random IV for each encryption session to ensure uniqueness.
 - **Salt:** Fixed (`b'sal_t'`) (Can be modified for improved security)  
 
 ## Notes
@@ -48,5 +56,5 @@ python sftt.py
 - For external transfers, **port forwarding** may be required.  
 - The file is encrypted **before** sending, so even if intercepted, it remains protected.
 
-## License
-This project is open-source under the **MIT License**.
+### Contact
+For any issues, suggestions, or contributions, feel free to reach out or create an issue in the GitHub repository.
